@@ -13,7 +13,7 @@ fun SplashScreen() {
         modifier = Modifier.fillMaxSize(),
         contentAlignment = Alignment.Center
     ) {
-        Text(text = "Welcome to the Math Quiz!", fontSize = 24.sp)
+        Text(text = "How good are you at Math?", fontSize = 24.sp)
     }
 }
 

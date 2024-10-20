@@ -32,3 +32,4 @@ fun StatsScreen(correctAnswers: Int, totalQuestions: Int) {
         }
     }
 }
+

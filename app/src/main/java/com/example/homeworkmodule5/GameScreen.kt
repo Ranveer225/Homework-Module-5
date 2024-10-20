@@ -18,6 +18,11 @@ fun GameScreen(onGameComplete: (correctAnswers: Int, totalQuestions: Int) -> Uni
             Question("What is 2 + 2?", listOf("3", "4", "5"), 1),
             Question("What is 10 / 2?", listOf("4", "5", "6"), 1),
             Question("What is the square root of 9?", listOf("2", "3", "4"), 1),
+            Question("What is 5 * 3?", listOf("10", "15", "20"), 1),
+            Question("What is 12 - 4?", listOf("7", "8", "9"), 1),
+            Question("What is 15 + 6?", listOf("21", "22", "23"), 0),
+            Question("What is 100 / 10?", listOf("5", "10", "15"), 1),
+            Question("What is 3^2?", listOf("6", "9", "12"), 1)
             // display questions for UI
         )
     }
